@@ -15,11 +15,11 @@
  **/
 
 struct Credentials {
-    static let ConversationUsername = "70e92458-00b7-48db-88d2-3afb7d2bca91"
-    static let ConversationPassword = "5ZqP5xJkt2R4"
-    static let ConversationWorkspaceID = "72d1f7b2-c2af-4761-a890-894faa0efd29"
-    static let SpeechToTextUsername = "c8000f8c-57e3-4310-9f93-184156509757"
-    static let SpeechToTextPassword = "sZjGuRWei0Ni"
-    static let TextToSpeechUsername = "717b8612-655a-4d53-8c65-59582a83d2d7"
-    static let TextToSpeechPassword = "vWLekNncqDln"
+    static let ConversationUsername = "conversation_username"
+    static let ConversationPassword = "conversation_password"
+    static let ConversationWorkspaceID = "conversation_workspace-id"
+    static let SpeechToTextUsername = "STT_username"
+    static let SpeechToTextPassword = "STT_password"
+    static let TextToSpeechUsername = "TTS_username"
+    static let TextToSpeechPassword = "TTS_password"
 }
