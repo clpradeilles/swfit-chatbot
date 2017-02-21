@@ -34,7 +34,7 @@
 {
     [super viewDidLoad];
     
-    self.title = @"Chat App Example";
+    self.title = @"Chat with Watson";
     self.messages = [[Messages alloc] init];
     self.senderId = kChatAppAvatarIdFisher;
     self.senderDisplayName = kChatAppAvatarDisplayNameFisher;
