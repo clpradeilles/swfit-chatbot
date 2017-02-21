@@ -25,7 +25,7 @@
         
         self.messages = [[NSMutableArray alloc] init];
 
-        JSQMessagesAvatarImage *grfImage = [JSQMessagesAvatarImageFactory avatarImageWithUserInitials:@"GRF"
+        JSQMessagesAvatarImage *grfImage = [JSQMessagesAvatarImageFactory avatarImageWithUserInitials:@"C.P"
                                                                                       backgroundColor:[UIColor colorWithWhite:0.85f alpha:1.0f]
                                                                                             textColor:[UIColor colorWithWhite:0.60f alpha:1.0f]
                                                                                                  font:[UIFont systemFontOfSize:14.0f]
