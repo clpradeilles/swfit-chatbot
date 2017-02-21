@@ -1,6 +1,11 @@
+//  AppDelegate.h
+//  Projet CACEIS
+//  Créé par Clément PRADEILLES le 07/01/2017.
+//  Copyright © 2017 IBM. Tous droits réservés.
+
 # Watson Developer Cloud iOS SDK: Chat App Example
 
-This repository contains an example application to demonstrate how the Swift-based [Watson Developer Cloud iOS SDK](https://github.com/watson-developer-cloud/ios-sdk) can be consumed from an Objective-C application.
+This repository contains an example application to demonstrate how developp a Chat in a Swift application based on [Watson Developer Cloud iOS SDK](https://github.com/watson-developer-cloud/ios-sdk).
 
 This example modifies the [JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) demo application to add Watson services, including Speech to Text, Conversation, and Text to Speech.
 
@@ -24,4 +29,5 @@ This project uses both [Carthage](https://github.com/Carthage/Carthage) and [Coc
 2. Build the dependencies: `carthage update --platform iOS`
 3. Open `ChatApp.xcworkspace`
 4. Update your service credentials in `Credentials.swift`
-5. Build and run the app!
+5. Add framework that you have install in your app
+6. Build and run the app!
