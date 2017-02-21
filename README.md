@@ -1,5 +1,3 @@
-//  Créé par Clément PRADEILLES le 07/01/2017.
-//  Copyright © 2017 IBM. Tous droits réservés.
 
 # Watson Developer Cloud iOS SDK: Chat App Example
 
