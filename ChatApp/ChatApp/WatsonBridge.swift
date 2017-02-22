@@ -30,7 +30,7 @@ class TextToSpeechBridge: NSObject {
     
     func synthesize(text: String) {
         let failure = { (error: Error) in print(error) }
-        textToSpeech.synthesize(text, voice: SynthesisVoice.us_Michael.rawValue, audioFormat: .wav, failure: failure) { data in
+        textToSpeech.synthesize(text, voice: SynthesisVoice.fr_Renee.rawValue, audioFormat: .wav, failure: failure) { data in
             self.audioPlayer = try! AVAudioPlayer(data: data)
             self.audioPlayer!.prepareToPlay()
             self.audioPlayer!.play()
